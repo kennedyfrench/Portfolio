@@ -1,0 +1,56 @@
+img {
+    margin: auto;
+    display: block;
+  }
+  
+  .cutline {
+    font-size: 10px;
+    padding-left: 2.5%;
+  }
+  
+  h1 {
+    color: #000000;
+    font-size: 3.4em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  
+  #byline {
+    font-size: 1.1em;
+  }
+  
+  body {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #FFFFFF;
+  }
+  
+  p {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    padding-bottom: 20px;
+  }
+  
+  .img-container {
+    width: 100%;
+  }
+  
+  @media (orientation: portrait) {
+    #content {
+      width: 100%;
+    }
+  }
+  .nav-button a {
+    font-size: 2em;
+    color: rgb(164, 199, 6);
+    text-decoration:none;
+    background-color:#ffffff;
+    font-weight: bold;
+    margin:auto;
+  }
+
+  #nav-bar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
