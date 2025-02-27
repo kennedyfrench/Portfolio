@@ -1,8 +1,26 @@
-img {
+.home {
     margin: auto;
     display: block;
   }
+
+ .clip {
+  margin: 20;
+ }
+
+.clip-image {
   
+  }
+
+  a .clip {
+    text-decoration: none;
+    color:black
+  }
+
+  .clips{
+    display:flex;
+    flex-direction:row;
+  }
+
   .cutline {
     font-size: 10px;
     padding-left: 2.5%;
@@ -39,12 +57,14 @@ img {
     #content {
       width: 100%;
     }
+    .clips {
+      flex-direction:column;
+    }
   }
-  .nav-button a {
-    font-size: 2em;
-    color: rgb(164, 199, 6);
+  .nav-item a{
+    font-size: 1.5em;
+    color: rgb(6, 199, 9);
     text-decoration:none;
-    background-color:#ffffff;
     font-weight: bold;
     margin:auto;
   }
@@ -53,4 +73,7 @@ img {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    background-color:#dc1f1f;
+    width: 100%;
   }
+  /* comment */
