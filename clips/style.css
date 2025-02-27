@@ -1,0 +1,76 @@
+.home {
+    margin: auto;
+    display: block;
+  }
+
+ .clip {
+  margin: 20;
+  text-decoration: none;
+  flex-direction:row;
+ }
+
+.clip-image {
+  text-align: center;
+  }
+
+  a .clip {
+    text-decoration: none;
+    color:black;
+  }
+
+  .clips {
+    display:flex;
+    flex-direction:row;
+  }
+
+  .cutline {
+    color: black;
+    font-size: 10px;
+    font-family: "Georgia";
+    padding-left: 2.5%;
+  }
+
+  
+  h1 {
+    color: black;
+    font-size: 2.5em;
+    font-family: 'Georgia';
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  
+  #byline {
+    font-size: 1.1em;
+    font-family: 'Georgia';
+    color: black;
+  }
+  
+  body {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+  }
+  
+  p {
+    color: rgb(54, 53, 53);
+    font-size: 1.3em;
+    font-family: 'Georgia';
+    line-height: 1.3em;
+    padding-bottom: 20px;
+  }
+  
+  .img-container {
+    width: 100%;
+  }
+  
+  @media (orientation: portrait) {
+    #content {
+      width: 100%;
+    }
+    .clips {
+      flex-direction:column;
+    }
+  }
