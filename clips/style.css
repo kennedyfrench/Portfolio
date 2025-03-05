@@ -66,6 +66,38 @@
     width: 100%;
   }
   
+  #photocontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Ensures proper centering */
+  }
+
+  #photocontainer a {
+    width: 48%; /* Ensures two items per row */
+    max-width: 400px; /* Adjust as needed */
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+
+  .image-box {
+    text-align: center;
+    background: #f8f8f8;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  #photocontainer img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+
+  h2, p {
+    margin: 5px 0;
+  }
+
   @media (orientation: portrait) {
     #content {
       width: 100%;
