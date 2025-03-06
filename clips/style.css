@@ -52,6 +52,7 @@
     padding-left: 5%;
     padding-right: 5%;
     background-color: white;
+    font-family: 'georgia'
   }
   
   p {
@@ -63,8 +64,16 @@
   }
   
   .img-container {
+    display: flex;
+    justify-content: center;
     width: 100%;
-  }
+}
+
+.img-container img {
+    max-width: 95%;
+    height: auto;
+}
+
   
   #photocontainer {
     display: flex;
