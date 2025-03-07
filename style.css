@@ -3,6 +3,7 @@
     display: block;
   }
 
+  /* Sets a margin for elements with the .clip class (missing unit, should be specified e.g., px) */
  .clip {
   margin: 20;
  }
@@ -11,11 +12,13 @@
   
   }
 
+/* Removes underline from links inside elements with the .clip class and sets text color to black */
   a .clip {
     text-decoration: none;
     color:black
   }
 
+/* Displays .clips container as a flexbox with horizontal row layout */
   .clips{
     display:flex;
     flex-direction:row;
@@ -69,6 +72,7 @@
     width: 100%;
   }
   
+/* Styles video container as a flexible grid with wrapping and spacing */
   .video-container {
     display: flex;
     flex-wrap: wrap;
@@ -82,6 +86,7 @@
     text-align: center;
 }
 
+/* Adds margin below h3 elements inside .video-item */
 .video-item h3 {
     margin-bottom: 10px;
 }
@@ -115,4 +120,3 @@
     background-color:rgb(135, 213, 167);
     width: 100%;
   }
-  /* comment */
